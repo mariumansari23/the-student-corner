@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" role="img" aria-label="Student wellness, healthy sleep hygiene, study breaks, and mental restoration">
+  <defs>
+    <linearGradient id="wellBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF9FD" />
+      <stop offset="100%" stop-color="#F4F0FF" />
+    </linearGradient>
+    <filter id="wShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#30204F" flood-opacity="0.08" />
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#wellBg)" stroke="#E8E2F2" stroke-width="2" />
+
+  <!-- Calming Center Circle Visual: Balance & Mindfulness -->
+  <circle cx="400" cy="240" r="150" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="2" />
+  <circle cx="400" cy="240" r="120" fill="#F4F0FF" />
+
+  <!-- Botanical Leaf & Balance Stem -->
+  <path d="M 400 320 C 400 240, 360 180, 400 150 C 440 180, 400 240, 400 320 Z" fill="#7256B5" />
+  <path d="M 400 240 Q 350 210 330 230 Q 365 245 400 240 Z" fill="#8466C7" />
+  <path d="M 400 210 Q 450 180 470 200 Q 435 215 400 210 Z" fill="#9B7ED9" />
+
+  <!-- 4 Wellness Pillars Cards -->
+  <!-- 1. Sleep Hygiene -->
+  <g transform="translate(100, 80)" filter="url(#wShadow)">
+    <rect x="0" y="0" width="180" height="120" rx="10" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="1.5" />
+    <circle cx="30" cy="30" r="16" fill="#F4F0FF" />
+    <text x="30" y="36" font-family="Georgia, serif" font-size="16" fill="#7256B5" text-anchor="middle">🌙</text>
+    <text x="56" y="28" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#30204F">Sleep Hygiene</text>
+    <text x="56" y="44" font-family="Arial, sans-serif" font-size="10" fill="#7256B5">7-8h Memory Consolidation</text>
+    <line x1="20" y1="58" x2="160" y2="58" stroke="#E8E2F2" />
+    <text x="20" y="78" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">Deep sleep stabilizes</text>
+    <text x="20" y="94" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">long-term neural recall.</text>
+  </g>
+
+  <!-- 2. Active Breaks -->
+  <g transform="translate(520, 80)" filter="url(#wShadow)">
+    <rect x="0" y="0" width="180" height="120" rx="10" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="1.5" />
+    <circle cx="30" cy="30" r="16" fill="#F4F0FF" />
+    <text x="30" y="36" font-family="Georgia, serif" font-size="16" fill="#7256B5" text-anchor="middle">🚶</text>
+    <text x="56" y="28" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#30204F">Active Breaks</text>
+    <text x="56" y="44" font-family="Arial, sans-serif" font-size="10" fill="#7256B5">Step away from screens</text>
+    <line x1="20" y1="58" x2="160" y2="58" stroke="#E8E2F2" />
+    <text x="20" y="78" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">A 10-minute walk clears</text>
+    <text x="20" y="94" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">mental fog and fatigue.</text>
+  </g>
+
+  <!-- 3. Stress Regulation -->
+  <g transform="translate(100, 290)" filter="url(#wShadow)">
+    <rect x="0" y="0" width="180" height="120" rx="10" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="1.5" />
+    <circle cx="30" cy="30" r="16" fill="#F4F0FF" />
+    <text x="30" y="36" font-family="Georgia, serif" font-size="16" fill="#7256B5" text-anchor="middle">🧘</text>
+    <text x="56" y="28" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#30204F">Stress Balance</text>
+    <text x="56" y="44" font-family="Arial, sans-serif" font-size="10" fill="#7256B5">Box Breathing &amp; Calm</text>
+    <line x1="20" y1="58" x2="160" y2="58" stroke="#E8E2F2" />
+    <text x="20" y="78" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">4-4-4-4 rhythm calms</text>
+    <text x="20" y="94" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">sympathetic nervous arousal.</text>
+  </g>
+
+  <!-- 4. Community Connection -->
+  <g transform="translate(520, 290)" filter="url(#wShadow)">
+    <rect x="0" y="0" width="180" height="120" rx="10" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="1.5" />
+    <circle cx="30" cy="30" r="16" fill="#F4F0FF" />
+    <text x="30" y="36" font-family="Georgia, serif" font-size="16" fill="#7256B5" text-anchor="middle">☕</text>
+    <text x="56" y="28" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#30204F">Social Synergy</text>
+    <text x="56" y="44" font-family="Arial, sans-serif" font-size="10" fill="#7256B5">Study Buddies &amp; Tea</text>
+    <line x1="20" y1="58" x2="160" y2="58" stroke="#E8E2F2" />
+    <text x="20" y="78" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">Sharing academic challenges</text>
+    <text x="20" y="94" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">reduces perceived isolation.</text>
+  </g>
+</svg>

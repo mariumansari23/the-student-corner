@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" role="img" aria-label="10 Study Techniques Every Student Should Know visual banner">
+  <defs>
+    <linearGradient id="artStudyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#30204F" />
+      <stop offset="100%" stop-color="#553A85" />
+    </linearGradient>
+    <filter id="artShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.2" />
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#artStudyGrad)" />
+
+  <!-- Abstract Cognitive Constellation / Neurons -->
+  <g opacity="0.3">
+    <circle cx="150" cy="120" r="4" fill="#FFFFFF" />
+    <circle cx="280" cy="80" r="6" fill="#A288E3" />
+    <circle cx="400" cy="110" r="5" fill="#FFFFFF" />
+    <circle cx="560" cy="90" r="4" fill="#A288E3" />
+    <circle cx="680" cy="130" r="6" fill="#FFFFFF" />
+    <line x1="150" y1="120" x2="280" y2="80" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="280" y1="80" x2="400" y2="110" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="400" y1="110" x2="560" y2="90" stroke="#FFFFFF" stroke-width="1" />
+    <line x1="560" y1="90" x2="680" y2="130" stroke="#FFFFFF" stroke-width="1" />
+  </g>
+
+  <!-- Editorial Card Centerpiece -->
+  <g transform="translate(100, 100)" filter="url(#artShadow)">
+    <rect x="0" y="0" width="600" height="300" rx="12" fill="#FAF9FD" stroke="#E8E2F2" stroke-width="2" />
+    
+    <!-- Top Decorative Line -->
+    <rect x="0" y="0" width="600" height="8" rx="4" fill="#7256B5" />
+
+    <text x="50" y="45" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#7256B5" letter-spacing="1">STUDY SCIENCE &amp; COGNITIVE PSYCHOLOGY</text>
+    <text x="50" y="80" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#30204F">10 Proven Techniques for Academic Mastery</text>
+    
+    <!-- 3 Core Pillars Preview -->
+    <g transform="translate(50, 110)">
+      <rect x="0" y="0" width="150" height="130" rx="8" fill="#FFFFFF" stroke="#E8E2F2" />
+      <circle cx="28" cy="28" r="14" fill="#F4F0FF" />
+      <text x="28" y="34" font-family="Arial, sans-serif" font-size="14" fill="#7256B5" text-anchor="middle">🧠</text>
+      <text x="18" y="65" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#30204F">Active Recall</text>
+      <text x="18" y="85" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">Self-testing forces neural retrieval and locks facts.</text>
+      <text x="18" y="115" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#7256B5">300% Higher Recall</text>
+    </g>
+
+    <g transform="translate(225, 110)">
+      <rect x="0" y="0" width="150" height="130" rx="8" fill="#FFFFFF" stroke="#E8E2F2" />
+      <circle cx="28" cy="28" r="14" fill="#F4F0FF" />
+      <text x="28" y="34" font-family="Arial, sans-serif" font-size="14" fill="#7256B5" text-anchor="middle">📅</text>
+      <text x="18" y="65" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#30204F">Spaced Practice</text>
+      <text x="18" y="85" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">Flatten the Ebbinghaus forgetting curve.</text>
+      <text x="18" y="115" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#7256B5">Long-Term Storage</text>
+    </g>
+
+    <g transform="translate(400, 110)">
+      <rect x="0" y="0" width="150" height="130" rx="8" fill="#FFFFFF" stroke="#E8E2F2" />
+      <circle cx="28" cy="28" r="14" fill="#F4F0FF" />
+      <text x="28" y="34" font-family="Arial, sans-serif" font-size="14" fill="#7256B5" text-anchor="middle">💡</text>
+      <text x="18" y="65" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#30204F">Feynman Model</text>
+      <text x="18" y="85" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">Teach simply to uncover deep gaps in understanding.</text>
+      <text x="18" y="115" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#7256B5">Complete Clarity</text>
+    </g>
+
+    <text x="50" y="275" font-family="Arial, sans-serif" font-size="11" fill="#4B4657">By Sarah Jenkins, Senior Academic Mentor • 8 Min Comprehensive Read</text>
+  </g>
+</svg>

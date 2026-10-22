@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" role="img" aria-label="University campus architecture and student community quad">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F4F0FF" />
+      <stop offset="100%" stop-color="#E8E2F2" />
+    </linearGradient>
+    <filter id="bldgShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#30204F" flood-opacity="0.08" />
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#skyGrad)" />
+
+  <!-- Sun / Morning glow -->
+  <circle cx="200" cy="120" r="60" fill="#FFFFFF" opacity="0.8" />
+  
+  <!-- Background Campus Building Silhouette -->
+  <path d="M 50 300 L 50 220 L 120 180 L 190 220 L 190 300 Z" fill="#D4C4F7" opacity="0.6" />
+  <path d="M 190 300 L 190 240 L 280 240 L 280 300 Z" fill="#D4C4F7" opacity="0.4" />
+  <path d="M 600 300 L 600 200 L 720 200 L 720 300 Z" fill="#D4C4F7" opacity="0.5" />
+
+  <!-- Main Collegiate Library / Hall -->
+  <g filter="url(#bldgShadow)">
+    <rect x="220" y="160" width="360" height="180" rx="6" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="2" />
+    <!-- Pediment Roof -->
+    <polygon points="190,160 400,80 610,160" fill="#30204F" />
+    <!-- Pediment Relief Circle -->
+    <circle cx="400" cy="125" r="16" fill="#7256B5" />
+    <text x="400" y="131" font-family="Georgia, serif" font-size="16" fill="#FFFFFF" text-anchor="middle">SC</text>
+    
+    <!-- Classical Columns -->
+    <rect x="260" y="160" width="20" height="180" fill="#F4F0FF" stroke="#E8E2F2" />
+    <rect x="320" y="160" width="20" height="180" fill="#F4F0FF" stroke="#E8E2F2" />
+    <rect x="460" y="160" width="20" height="180" fill="#F4F0FF" stroke="#E8E2F2" />
+    <rect x="520" y="160" width="20" height="180" fill="#F4F0FF" stroke="#E8E2F2" />
+    
+    <!-- Library Entrance Arch -->
+    <path d="M 370 340 L 370 230 A 30 30 0 0 1 430 230 L 430 340 Z" fill="#7256B5" />
+    <!-- Window Arches -->
+    <path d="M 290 230 A 10 10 0 0 1 310 230 L 310 270 L 290 270 Z" fill="#30204F" opacity="0.7" />
+    <path d="M 490 230 A 10 10 0 0 1 510 230 L 510 270 L 490 270 Z" fill="#30204F" opacity="0.7" />
+  </g>
+
+  <!-- Campus Lawn & Pathway -->
+  <path d="M 0 340 Q 400 320 800 340 L 800 500 L 0 500 Z" fill="#FAF9FD" />
+  <path d="M 350 340 L 250 500 L 550 500 L 450 340 Z" fill="#E8E2F2" opacity="0.7" />
+
+  <!-- Campus Trees & Park Benches -->
+  <g transform="translate(100, 260)">
+    <rect x="42" y="70" width="12" height="70" fill="#30204F" rx="3" />
+    <ellipse cx="48" cy="60" rx="42" ry="55" fill="#7256B5" />
+    <ellipse cx="48" cy="45" rx="32" ry="42" fill="#8466C7" />
+  </g>
+
+  <g transform="translate(620, 250)">
+    <rect x="36" y="80" width="12" height="70" fill="#30204F" rx="3" />
+    <ellipse cx="42" cy="70" rx="40" ry="50" fill="#7256B5" />
+    <ellipse cx="42" cy="55" rx="30" ry="38" fill="#8466C7" />
+  </g>
+
+  <!-- Campus Badge Ribbon -->
+  <g transform="translate(270, 390)">
+    <rect x="0" y="0" width="260" height="46" rx="8" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="1.5" />
+    <circle cx="24" cy="23" r="12" fill="#7256B5" />
+    <text x="24" y="27" font-family="Arial, sans-serif" font-size="12" fill="#FFFFFF" text-anchor="middle">🎓</text>
+    <text x="46" y="27" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#30204F">Campus Community &amp; Life</text>
+  </g>
+</svg>

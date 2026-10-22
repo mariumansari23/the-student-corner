@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" role="img" aria-label="Productivity framework showing time blocking, Pomodoro cycles, and priority matrix">
+  <defs>
+    <linearGradient id="prodBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF9FD" />
+      <stop offset="100%" stop-color="#F4F0FF" />
+    </linearGradient>
+    <filter id="pShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#30204F" flood-opacity="0.08" />
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#prodBg)" stroke="#E8E2F2" stroke-width="2" />
+
+  <!-- Eisenhower Priority Matrix -->
+  <g transform="translate(100, 80)" filter="url(#pShadow)">
+    <rect x="0" y="0" width="360" height="340" rx="12" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="2" />
+    <rect x="0" y="0" width="360" height="44" rx="12" fill="#7256B5" />
+    <rect x="0" y="32" width="360" height="12" fill="#7256B5" />
+    <text x="20" y="28" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#FFFFFF">Priority Matrix: Focus on What Matters</text>
+    
+    <!-- Quadrant 1: Urgent & Important -->
+    <rect x="20" y="60" width="150" height="120" rx="8" fill="#F4F0FF" stroke="#E8E2F2" />
+    <text x="32" y="82" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#7256B5">DO FIRST (Urgent)</text>
+    <text x="32" y="104" font-family="Arial, sans-serif" font-size="10" fill="#30204F">• Coursework Due Fri</text>
+    <text x="32" y="124" font-family="Arial, sans-serif" font-size="10" fill="#30204F">• Lab Experiment Review</text>
+    <text x="32" y="144" font-family="Arial, sans-serif" font-size="10" fill="#30204F">• Final Project Code</text>
+
+    <!-- Quadrant 2: Not Urgent & Important -->
+    <rect x="190" y="60" width="150" height="120" rx="8" fill="#FAF9FD" stroke="#7256B5" stroke-width="1.5" />
+    <text x="202" y="82" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#30204F">SCHEDULE (Growth)</text>
+    <text x="202" y="104" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">• Weekly Spaced Review</text>
+    <text x="202" y="124" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">• Internship Research</text>
+    <text x="202" y="144" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">• Sleep &amp; Exercise</text>
+
+    <!-- Quadrant 3: Urgent & Not Important -->
+    <rect x="20" y="195" width="150" height="115" rx="8" fill="#FFFFFF" stroke="#E8E2F2" />
+    <text x="32" y="217" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#4B4657">DELEGATE / LIMIT</text>
+    <text x="32" y="239" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">• Group Chat Noise</text>
+    <text x="32" y="259" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">• Minor Admin Inquiries</text>
+
+    <!-- Quadrant 4: Not Urgent & Not Important -->
+    <rect x="190" y="195" width="150" height="115" rx="8" fill="#FFFFFF" stroke="#E8E2F2" />
+    <text x="202" y="217" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#4B4657">ELIMINATE</text>
+    <text x="202" y="239" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">• Endless Social Feeds</text>
+    <text x="202" y="259" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">• Unplanned Browsing</text>
+  </g>
+
+  <!-- Pomodoro Protocol Card -->
+  <g transform="translate(490, 80)" filter="url(#pShadow)">
+    <rect x="0" y="0" width="220" height="340" rx="12" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="2" />
+    <circle cx="110" cy="100" r="60" fill="#F4F0FF" stroke="#7256B5" stroke-width="4" />
+    <text x="110" y="98" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#30204F" text-anchor="middle">25:00</text>
+    <text x="110" y="120" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#7256B5" text-anchor="middle">DEEP WORK FOCUS</text>
+    
+    <g transform="translate(25, 185)">
+      <rect x="0" y="0" width="170" height="36" rx="6" fill="#F4F0FF" />
+      <text x="15" y="22" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#7256B5">Step 1: 25m Focus Block</text>
+    </g>
+
+    <g transform="translate(25, 230)">
+      <rect x="0" y="0" width="170" height="36" rx="6" fill="#FAF9FD" stroke="#E8E2F2" />
+      <text x="15" y="22" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#30204F">Step 2: 5m Brain Recharge</text>
+    </g>
+
+    <g transform="translate(25, 275)">
+      <rect x="0" y="0" width="170" height="36" rx="6" fill="#30204F" />
+      <text x="15" y="22" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF">After 4 Cycles: 20m Break</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" role="img" aria-label="Student internship portfolio, resume and career trajectory">
+  <defs>
+    <linearGradient id="careerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4F0FF" />
+      <stop offset="100%" stop-color="#E8E2F2" />
+    </linearGradient>
+    <filter id="cShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#30204F" flood-opacity="0.08" />
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#careerBg)" stroke="#E8E2F2" stroke-width="2" />
+
+  <!-- Professional Student CV Sheet Blueprint -->
+  <g transform="translate(140, 70)" filter="url(#cShadow)">
+    <rect x="0" y="0" width="280" height="360" rx="10" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="2" />
+    <!-- Candidate Header -->
+    <rect x="25" y="25" width="45" height="45" rx="22" fill="#7256B5" />
+    <text x="47" y="52" font-family="Georgia, serif" font-size="20" fill="#FFFFFF" text-anchor="middle">🎓</text>
+    <text x="82" y="42" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#30204F">Alex Morgan</text>
+    <text x="82" y="58" font-family="Arial, sans-serif" font-size="10" fill="#7256B5">B.Sc Computer Science &amp; Data</text>
+    
+    <line x1="25" y1="85" x2="255" y2="85" stroke="#E8E2F2" stroke-width="1.5" />
+
+    <!-- Education Section -->
+    <text x="25" y="105" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#30204F">EDUCATION</text>
+    <text x="25" y="122" font-family="Arial, sans-serif" font-size="10" fill="#4B4657">University College • Expected 2027</text>
+    <text x="25" y="136" font-family="Arial, sans-serif" font-size="9" fill="#7256B5">GPA: 3.9 / 4.0 · Dean's List</text>
+
+    <!-- Technical Projects (STAR Format) -->
+    <text x="25" y="165" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#30204F">ACADEMIC PROJECTS (STAR)</text>
+    <rect x="25" y="175" width="230" height="70" rx="6" fill="#F4F0FF" />
+    <text x="35" y="193" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#30204F">Coursework Scheduler Web App</text>
+    <text x="35" y="210" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">• Engineered student schedule optimizer</text>
+    <text x="35" y="225" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">• Used by 1,200+ active peers on campus</text>
+
+    <!-- Skills Breakdown -->
+    <text x="25" y="270" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#30204F">KEY SKILLS &amp; TOOLS</text>
+    <rect x="25" y="282" width="60" height="20" rx="4" fill="#E8E2F2" />
+    <text x="55" y="296" font-family="Arial, sans-serif" font-size="9" fill="#30204F" text-anchor="middle">Python</text>
+
+    <rect x="92" y="282" width="60" height="20" rx="4" fill="#E8E2F2" />
+    <text x="122" y="296" font-family="Arial, sans-serif" font-size="9" fill="#30204F" text-anchor="middle">SQL</text>
+
+    <rect x="160" y="282" width="85" height="20" rx="4" fill="#7256B5" />
+    <text x="202" y="296" font-family="Arial, sans-serif" font-size="9" fill="#FFFFFF" text-anchor="middle">Git &amp; Teamwork</text>
+
+    <!-- Status Ribbon -->
+    <rect x="25" y="318" width="230" height="26" rx="4" fill="#30204F" />
+    <text x="140" y="335" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">INTERNSHIP OFFER READY</text>
+  </g>
+
+  <!-- Career Milestones Roadmap -->
+  <g transform="translate(460, 90)" filter="url(#cShadow)">
+    <rect x="0" y="0" width="230" height="320" rx="10" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="2" />
+    <text x="20" y="35" font-family="Georgia, serif" font-size="15" font-weight="bold" fill="#30204F">Internship Roadmap</text>
+    <line x1="20" y1="50" x2="210" y2="50" stroke="#E8E2F2" stroke-width="1.5" />
+
+    <!-- Step 1 -->
+    <circle cx="35" cy="80" r="14" fill="#7256B5" />
+    <text x="35" y="84" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+    <text x="60" y="78" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#30204F">Resume &amp; Portfolio</text>
+    <text x="60" y="93" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">Highlight projects &amp; skills</text>
+
+    <!-- Step 2 -->
+    <circle cx="35" cy="140" r="14" fill="#7256B5" />
+    <text x="35" y="144" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+    <text x="60" y="138" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#30204F">Targeted Applications</text>
+    <text x="60" y="153" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">Tailor applications early</text>
+
+    <!-- Step 3 -->
+    <circle cx="35" cy="200" r="14" fill="#7256B5" />
+    <text x="35" y="204" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+    <text x="60" y="198" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#30204F">Behavioral Prep</text>
+    <text x="60" y="213" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">Practice mock interviews</text>
+
+    <!-- Step 4 -->
+    <circle cx="35" cy="260" r="14" fill="#30204F" />
+    <text x="35" y="264" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+    <text x="60" y="258" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#30204F">First Internship Offer</text>
+    <text x="60" y="273" font-family="Arial, sans-serif" font-size="9" fill="#7256B5">Launch professional career</text>
+  </g>
+</svg>

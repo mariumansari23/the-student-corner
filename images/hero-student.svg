@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" role="img" aria-label="Student studying with laptop, books and notebook in a bright cozy workspace">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4F0FF" />
+      <stop offset="100%" stop-color="#E8E2F2" />
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8466C7" />
+      <stop offset="100%" stop-color="#7256B5" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A288E3" />
+      <stop offset="100%" stop-color="#7256B5" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#30204F" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="500" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Subtle Architectural Arch & Window -->
+  <path d="M 460 70 A 140 140 0 0 1 740 70 L 740 370 L 460 370 Z" fill="#FFFFFF" opacity="0.6" />
+  <circle cx="600" cy="180" r="85" fill="#FAF9FD" />
+  <path d="M 600 95 L 600 265 M 515 180 L 685 180" stroke="#E8E2F2" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Botanical Plant Pot on Window sill -->
+  <path d="M 680 320 L 730 320 L 720 370 L 690 370 Z" fill="#7256B5" />
+  <path d="M 705 320 Q 670 270 650 290 Q 690 310 705 320 Z" fill="#8466C7" />
+  <path d="M 705 320 Q 720 250 745 270 Q 720 300 705 320 Z" fill="#A288E3" />
+  <path d="M 705 320 Q 700 240 710 240 Q 715 280 705 320 Z" fill="#9B7ED9" />
+
+  <!-- Desk Surface -->
+  <rect x="60" y="360" width="680" height="20" rx="6" fill="#30204F" />
+  <rect x="90" y="380" width="20" height="90" rx="4" fill="#7256B5" opacity="0.8" />
+  <rect x="690" y="380" width="20" height="90" rx="4" fill="#7256B5" opacity="0.8" />
+
+  <!-- Modern Desk Lamp -->
+  <path d="M 140 360 L 170 360 L 160 350 L 150 350 Z" fill="#30204F" />
+  <path d="M 155 350 L 140 250 L 220 200" fill="none" stroke="#7256B5" stroke-width="6" stroke-linecap="round" />
+  <polygon points="210,180 250,210 230,230 190,200" fill="#30204F" />
+  <!-- Warm Lamp Light Cone -->
+  <polygon points="230,225 350,360 210,360" fill="#FFFFFF" opacity="0.3" />
+
+  <!-- Open Laptop -->
+  <g filter="url(#softShadow)">
+    <rect x="360" y="210" width="240" height="150" rx="8" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="2" />
+    <rect x="372" y="222" width="216" height="126" rx="4" fill="#FAF9FD" />
+    <!-- Laptop screen content / code / notes mockup -->
+    <rect x="390" y="240" width="100" height="12" rx="3" fill="#7256B5" />
+    <rect x="390" y="260" width="180" height="6" rx="2" fill="#E8E2F2" />
+    <rect x="390" y="274" width="160" height="6" rx="2" fill="#E8E2F2" />
+    <rect x="390" y="288" width="140" height="6" rx="2" fill="#E8E2F2" />
+    <!-- Mini progress chart on screen -->
+    <rect x="390" y="306" width="70" height="26" rx="4" fill="#F4F0FF" stroke="#E8E2F2" />
+    <path d="M 395 324 L 415 316 L 435 320 L 450 310" fill="none" stroke="#7256B5" stroke-width="2" stroke-linecap="round" />
+    <rect x="475" y="306" width="95" height="26" rx="4" fill="#7256B5" />
+    <text x="522" y="323" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#FFFFFF" text-anchor="middle">ACTIVE FOCUS</text>
+    <!-- Laptop Base -->
+    <path d="M 330 360 L 630 360 L 610 370 L 350 370 Z" fill="#E8E2F2" />
+  </g>
+
+  <!-- Stack of Hardcover Books -->
+  <g filter="url(#softShadow)">
+    <!-- Book 1 (Bottom) -->
+    <rect x="180" y="335" width="130" height="25" rx="3" fill="#30204F" />
+    <rect x="195" y="338" width="112" height="19" rx="2" fill="#FFFFFF" />
+    <line x1="200" y1="344" x2="300" y2="344" stroke="#FAF9FD" stroke-width="2" />
+    <line x1="200" y1="350" x2="280" y2="350" stroke="#FAF9FD" stroke-width="2" />
+    <rect x="180" y="335" width="15" height="25" rx="3" fill="#7256B5" />
+
+    <!-- Book 2 (Middle) -->
+    <rect x="190" y="312" width="115" height="23" rx="3" fill="#7256B5" />
+    <rect x="202" y="315" width="100" height="17" rx="2" fill="#FAF9FD" />
+    <rect x="190" y="312" width="12" height="23" rx="3" fill="#A288E3" />
+
+    <!-- Book 3 (Top) -->
+    <rect x="200" y="292" width="100" height="20" rx="3" fill="#A288E3" />
+    <rect x="210" y="295" width="87" height="14" rx="2" fill="#FFFFFF" />
+    <rect x="200" y="292" width="10" height="20" rx="3" fill="#30204F" />
+  </g>
+
+  <!-- Open Study Notebook with Highlighters -->
+  <g transform="translate(230, 362) rotate(-5)">
+    <rect x="0" y="-3" width="90" height="10" rx="2" fill="#FFFFFF" stroke="#E8E2F2" />
+    <line x1="8" y1="2" x2="82" y2="2" stroke="#7256B5" stroke-dasharray="4,2" />
+  </g>
+
+  <!-- Ceramic Coffee Mug with Steam -->
+  <rect x="635" y="325" width="34" height="35" rx="5" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="1.5" />
+  <path d="M 669 332 C 680 332, 680 348, 669 348" fill="none" stroke="#7256B5" stroke-width="3" stroke-linecap="round" />
+  <ellipse cx="652" cy="328" rx="13" ry="4" fill="#30204F" />
+  <!-- Steam Curves -->
+  <path d="M 648 318 Q 644 308 649 298" fill="none" stroke="#A288E3" stroke-width="1.5" stroke-linecap="round" opacity="0.7" />
+  <path d="M 656 316 Q 660 306 655 296" fill="none" stroke="#A288E3" stroke-width="1.5" stroke-linecap="round" opacity="0.7" />
+
+  <!-- Floating Achievement / Badge Accents (Editorial Style) -->
+  <g transform="translate(110, 90)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="190" height="64" rx="10" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="1.5" />
+    <circle cx="32" cy="32" r="18" fill="#F4F0FF" />
+    <text x="32" y="38" font-family="Georgia, serif" font-size="18" fill="#7256B5" text-anchor="middle">✦</text>
+    <text x="62" y="27" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#30204F" letter-spacing="0.5">STUDY SMARTER</text>
+    <text x="62" y="45" font-family="Arial, sans-serif" font-size="12" fill="#4B4657">Deep Work &amp; Focus</text>
+  </g>
+
+  <g transform="translate(480, 400)">
+    <rect x="0" y="0" width="220" height="42" rx="8" fill="#FFFFFF" stroke="#E8E2F2" stroke-width="1.5" />
+    <circle cx="22" cy="21" r="10" fill="#7256B5" />
+    <text x="22" y="25" font-family="Arial, sans-serif" font-size="11" fill="#FFFFFF" text-anchor="middle">✓</text>
+    <text x="42" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#30204F">Daily Habit Streak: 14 Days</text>
+  </g>
+</svg>

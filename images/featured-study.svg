@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%" role="img" aria-label="Deep focus study workspace with textbooks, laptop, and organized study notes">
+  <defs>
+    <linearGradient id="featGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#30204F" />
+      <stop offset="100%" stop-color="#47306D" />
+    </linearGradient>
+    <filter id="fGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+  <rect width="800" height="500" rx="16" fill="url(#featGrad)" />
+  
+  <!-- Subtle decorative stars & geometry -->
+  <circle cx="140" cy="100" r="3" fill="#A288E3" opacity="0.6" />
+  <circle cx="700" cy="140" r="4" fill="#A288E3" opacity="0.6" />
+  <circle cx="640" cy="80" r="2" fill="#FFFFFF" opacity="0.8" />
+  <circle cx="210" cy="60" r="2.5" fill="#FFFFFF" opacity="0.8" />
+  
+  <!-- Editorial Featured Pill & Badge -->
+  <rect x="70" y="60" width="130" height="30" rx="6" fill="#7256B5" />
+  <text x="135" y="80" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#FFFFFF" text-anchor="middle">FEATURED ESSAY</text>
+
+  <!-- Large Open Journal Canvas -->
+  <g transform="translate(140, 120)" filter="url(#fGlow)">
+    <rect x="0" y="0" width="520" height="320" rx="10" fill="#FAF9FD" />
+    <!-- Journal Ribbon Bookmark -->
+    <path d="M 260 0 L 260 260 L 250 245 L 240 260 L 240 0 Z" fill="#7256B5" />
+    
+    <!-- Left Column: Editorial Headline & Quote -->
+    <text x="40" y="55" font-family="Georgia, serif" font-size="22" font-weight="bold" fill="#30204F">The Deep Work Routine</text>
+    <text x="40" y="80" font-family="Arial, sans-serif" font-size="12" fill="#7256B5" font-weight="bold">MAXIMIZING COGNITIVE RETENTION</text>
+    
+    <line x1="40" y1="100" x2="210" y2="100" stroke="#E8E2F2" stroke-width="1.5" />
+    <text x="40" y="125" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#4B4657">“Clarity about what matters</text>
+    <text x="40" y="145" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#4B4657">provides clarity about what</text>
+    <text x="40" y="165" font-family="Georgia, serif" font-size="13" font-style="italic" fill="#4B4657">does not.”</text>
+
+    <!-- Mini Study Metrics -->
+    <rect x="40" y="200" width="170" height="60" rx="8" fill="#F4F0FF" />
+    <text x="55" y="225" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#7256B5">90 min</text>
+    <text x="55" y="245" font-family="Arial, sans-serif" font-size="11" fill="#4B4657">Optimal Focus Blocks</text>
+
+    <!-- Right Column: Visual Study Framework -->
+    <text x="290" y="55" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#30204F">Study Matrix</text>
+    <line x1="290" y1="70" x2="480" y2="70" stroke="#E8E2F2" stroke-width="1.5" />
+    
+    <!-- Quadrant Blocks -->
+    <rect x="290" y="85" width="85" height="70" rx="6" fill="#FFFFFF" stroke="#E8E2F2" />
+    <text x="300" y="105" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7256B5">1. SPRINT</text>
+    <text x="300" y="125" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">Solve hardest</text>
+    <text x="300" y="140" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">problems first</text>
+
+    <rect x="390" y="85" width="85" height="70" rx="6" fill="#FFFFFF" stroke="#E8E2F2" />
+    <text x="400" y="105" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#30204F">2. SYNTHESIS</text>
+    <text x="400" y="125" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">Diagram logic</text>
+    <text x="400" y="140" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">&amp; key concepts</text>
+
+    <rect x="290" y="170" width="85" height="70" rx="6" fill="#FFFFFF" stroke="#E8E2F2" />
+    <text x="300" y="190" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#30204F">3. RETRIEVAL</text>
+    <text x="300" y="210" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">Flashcard &amp;</text>
+    <text x="300" y="225" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">practice exam</text>
+
+    <rect x="390" y="170" width="85" height="70" rx="6" fill="#FFFFFF" stroke="#7256B5" stroke-width="1.5" />
+    <text x="400" y="190" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7256B5">4. REVIEW</text>
+    <text x="400" y="210" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">Error log &amp;</text>
+    <text x="400" y="225" font-family="Arial, sans-serif" font-size="9" fill="#4B4657">weekly reset</text>
+    
+    <text x="290" y="275" font-family="Arial, sans-serif" font-size="10" fill="#7256B5">✦ The Student Corner Editorial Selection</text>
+  </g>
+</svg>
